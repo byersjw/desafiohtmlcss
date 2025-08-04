@@ -29,3 +29,38 @@ header nav a{
 header nav a:hover{
     color: #00fafa;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0400e3;
+    color: #fff;
+    padding: 10px 40px;    
+}
+
+    .redesSociais{
+        display: flex;
+        gap: 15px;
+    }
+
+    .redesSociais p{
+        margin: 5px 0;
+    }
+
+    .redesSociais img
+    .logo_footer img{
+        height: 30px;
+        transition: transform 0.3s ease ;
+    }
+
+    .redesSociais img:hover{
+        transform: scale(1.1);
+    }
+
+    .copyright p{
+        margin: 0;
+        font-size: 13px;
+        text-align: center;
+    }
+    
